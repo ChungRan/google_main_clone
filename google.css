@@ -1,0 +1,132 @@
+body{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: 'Apple SD Gothic Neo',arial,sans-serif;
+}
+.header{
+    margin-top: 1rem;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    font-size: 13px;
+    margin-right: 1rem;
+}
+.header__items{
+    margin-right: 1rem;
+}
+#profile_image{
+    border-radius: 50%
+}
+.search{
+    display: block;
+    margin-top: 37px;
+}
+.search__block{
+    position: relative;
+    height: 233px;
+    width: auto;
+    max-width: 584px;
+    margin: 0 auto;
+}
+.search__block__bar{
+    width: auto;
+    height: 44px;
+    border: 1px solid #dfe1e5;
+    border-radius: 24px;
+    /* box-shadow: none; */
+    margin: 0 auto;
+    display: flex;
+    margin-top:25px;
+}
+.search__block__bar__in{
+    flex: 1 1 0%;
+    display: flex;
+    padding: 5px 8px 0 14px;
+}
+.search__block__bar__in__icon{
+    margin: auto 0;
+    color: #9aa0a6;
+    fill: currentColor;
+    flex: 0 0 auto;
+    margin-right: 13px;
+}
+.search__block__bar__in__text{
+    flex: 1 1 auto;
+    display: flex;
+}
+#textbox{
+    border: none;
+    margin: 0;
+    padding: 0;
+    flex: 100%;
+    margin-top: -3px;
+    font-size: 16px;
+}
+.search__block__bar__in__keyboard{
+    flex: 0 1 auto;
+    margin: auto 0;
+    padding: 0 8px;
+    padding-bottom: 5px;
+}
+.search__block__button{
+    margin-top:20px;
+}
+.search__block__button__items{
+    border: 1px solid #f8f9fa;
+    background-color: #f8f9fa;
+    color: #3c4043;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    /* cursor: pointer; */
+    height: 36px;
+}
+.logo{
+    padding-top: 109px;
+}
+.footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: rgba(0,0,0,.54);
+}
+.footer__up{
+    display: flex;
+    align-items: center;
+    background-color: #f2f2f2;
+    height: 2.5rem;
+    border-top: 1px solid #dadce0;
+    font-size: 15px;
+}
+.footer__up__items{
+    margin-left: 1.5rem;
+}
+.footer__down{
+    display: flex;
+    background-color: #f2f2f2;
+    border-top: 1px solid #dadce0;
+    align-items: center;
+    height: 2.5rem;
+    font-size: 14px;
+}
+.footer__down__left{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex: 1 1 0%;
+}
+.footer__down__left__items{
+    margin-left: 1.5rem;
+}
+.footer__down__right{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-left: 1.5rem;
+}
+.footer__down__right__items{
+    margin-right: 1.5rem;
+}
